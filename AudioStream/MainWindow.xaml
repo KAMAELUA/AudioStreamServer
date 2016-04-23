@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AudioStream"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="200" Width="180">
+    <StackPanel Margin="10,10">
+        <Button x:Name="BtnStart" Grid.Row="2" Grid.ColumnSpan="2" Content="Start" Click="Button_Click" />
+    </StackPanel>
 </Window>
